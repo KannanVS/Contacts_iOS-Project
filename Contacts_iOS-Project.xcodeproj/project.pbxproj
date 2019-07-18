@@ -13,7 +13,7 @@
 		0F371FC522DF74A80059514F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC322DF74A80059514F /* Main.storyboard */; };
 		0F371FC722DF74AD0059514F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC622DF74AD0059514F /* Assets.xcassets */; };
 		0F371FCA22DF74AD0059514F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC822DF74AD0059514F /* LaunchScreen.storyboard */; };
-		0F371FDA22DF931B0059514F /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FD922DF931A0059514F /* Icon-87.png */; };
+		0FA3174622E12813009BC7AA /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA3174522E12812009BC7AA /* Icon-87.png */; };
 		0FB0331122DFDA070074E8A8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0331022DFDA070074E8A8 /* Users.swift */; };
 		0FB0331522DFE5180074E8A8 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		0F371FC622DF74AD0059514F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F371FC922DF74AD0059514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F371FCB22DF74AD0059514F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F371FD922DF931A0059514F /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-87.png"; path = "../../Icon-87.png"; sourceTree = "<group>"; };
+		0FA3174522E12812009BC7AA /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = SOURCE_ROOT; };
 		0FB0331022DFDA070074E8A8 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,9 +66,9 @@
 				0F371FC122DF74A80059514F /* ViewController.swift */,
 				0F371FC322DF74A80059514F /* Main.storyboard */,
 				0F371FC622DF74AD0059514F /* Assets.xcassets */,
+				0FA3174522E12812009BC7AA /* Icon-87.png */,
 				0F371FC822DF74AD0059514F /* LaunchScreen.storyboard */,
 				0F371FCB22DF74AD0059514F /* Info.plist */,
-				0F371FD922DF931A0059514F /* Icon-87.png */,
 				0FB0331022DFDA070074E8A8 /* Users.swift */,
 				0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */,
 				0F07F15322E0E0A800AA96DD /* DetailViewController.swift */,
@@ -137,7 +137,7 @@
 				0F371FCA22DF74AD0059514F /* LaunchScreen.storyboard in Resources */,
 				0F371FC722DF74AD0059514F /* Assets.xcassets in Resources */,
 				0F371FC522DF74A80059514F /* Main.storyboard in Resources */,
-				0F371FDA22DF931B0059514F /* Icon-87.png in Resources */,
+				0FA3174622E12813009BC7AA /* Icon-87.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
