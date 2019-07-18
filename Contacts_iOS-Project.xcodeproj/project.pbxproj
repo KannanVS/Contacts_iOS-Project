@@ -12,9 +12,13 @@
 		0F371FC522DF74A80059514F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC322DF74A80059514F /* Main.storyboard */; };
 		0F371FC722DF74AD0059514F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC622DF74AD0059514F /* Assets.xcassets */; };
 		0F371FCA22DF74AD0059514F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FC822DF74AD0059514F /* LaunchScreen.storyboard */; };
+		0F371FDA22DF931B0059514F /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F371FD922DF931A0059514F /* Icon-87.png */; };
+		0FB0331122DFDA070074E8A8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0331022DFDA070074E8A8 /* Users.swift */; };
+		0FB0331522DFE5180074E8A8 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F07F15322E0E0A800AA96DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0F371FBC22DF74A80059514F /* Contacts_iOS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts_iOS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F371FBF22DF74A80059514F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F371FC122DF74A80059514F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,9 @@
 		0F371FC622DF74AD0059514F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F371FC922DF74AD0059514F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F371FCB22DF74AD0059514F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F371FD922DF931A0059514F /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-87.png"; path = "../../Icon-87.png"; sourceTree = "<group>"; };
+		0FB0331022DFDA070074E8A8 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,10 @@
 				0F371FC622DF74AD0059514F /* Assets.xcassets */,
 				0F371FC822DF74AD0059514F /* LaunchScreen.storyboard */,
 				0F371FCB22DF74AD0059514F /* Info.plist */,
+				0F371FD922DF931A0059514F /* Icon-87.png */,
+				0FB0331022DFDA070074E8A8 /* Users.swift */,
+				0FB0331422DFE5180074E8A8 /* UserTableViewCell.swift */,
+				0F07F15322E0E0A800AA96DD /* DetailViewController.swift */,
 			);
 			path = "Contacts_iOS-Project";
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 				0F371FCA22DF74AD0059514F /* LaunchScreen.storyboard in Resources */,
 				0F371FC722DF74AD0059514F /* Assets.xcassets in Resources */,
 				0F371FC522DF74A80059514F /* Main.storyboard in Resources */,
+				0F371FDA22DF931B0059514F /* Icon-87.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB0331522DFE5180074E8A8 /* UserTableViewCell.swift in Sources */,
 				0F371FC222DF74A80059514F /* ViewController.swift in Sources */,
+				0F07F15422E0E0A800AA96DD /* DetailViewController.swift in Sources */,
+				0FB0331122DFDA070074E8A8 /* Users.swift in Sources */,
 				0F371FC022DF74A80059514F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +297,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DN4K6K965;
 				INFOPLIST_FILE = "Contacts_iOS-Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +316,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DN4K6K965;
 				INFOPLIST_FILE = "Contacts_iOS-Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
